@@ -4,9 +4,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.linear_model import LinearRegression
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error
-import numpy as np
 import joblib
-import os
 from data_preprocessing import load_and_preprocess_data
 
 
